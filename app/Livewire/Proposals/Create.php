@@ -9,7 +9,7 @@ use Illuminate\Validation\Rule;
 class Create extends Component
 {
     public Project $project;
-    public bool $modal = true;
+    public bool $modal = false;
     public string $email = '';
     public int $hours = 0;
 
